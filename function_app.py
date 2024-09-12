@@ -14,7 +14,7 @@ server = "remee-aya-test.database.windows.net"
 database = "remee-test"
 username = "test_user"
 password = "September920204!"
-driver = '{ODBC Driver 17 for SQL Server}'
+driver = '{ODBC Driver 18 for SQL Server}'
 
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
