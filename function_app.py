@@ -19,8 +19,8 @@ def remeehttp(req: func.HttpRequest) -> func.HttpResponse:
 
     try:
         # Establish connection to SQL Server
-        #conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}')
-        conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};Authentication=ActiveDirectoryMsi')
+        conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};UID={username};PWD={password}')
+        #conn = pyodbc.connect(f'DRIVER={driver};SERVER={server};DATABASE={database};Authentication=ActiveDirectoryMsi')
         cursor = conn.cursor()
         
         # Example query
