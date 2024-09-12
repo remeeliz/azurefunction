@@ -10,10 +10,6 @@ import json
 #password = os.getenv("SQL_PASSWORD")
 #driver = '{ODBC Driver 17 for SQL Server}'
 
-server = "remee-aya-test.database.windows.net"
-database = "remee-test"
-username = "test_user"
-password = "September920204"
 driver = '{ODBC Driver 18 for SQL Server}'
 
 
