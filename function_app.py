@@ -4,10 +4,10 @@ import pyodbc
 import os
 import json
 
-#server = os.getenv("SQL_SERVER")
-#database = os.getenv("SQL_DATABASE")
-#username = os.getenv("SQL_USER")
-#password = os.getenv("SQL_PASSWORD")
+server = os.getenv("SQL_SERVER")
+database = os.getenv("SQL_DATABASE")
+username = os.getenv("SQL_USER")
+password = os.getenv("SQL_PASSWORD")
 #driver = '{ODBC Driver 17 for SQL Server}'
 
 driver = '{ODBC Driver 18 for SQL Server}'
