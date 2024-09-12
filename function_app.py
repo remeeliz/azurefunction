@@ -25,7 +25,7 @@ def remeehttp(req: func.HttpRequest) -> func.HttpResponse:
         cursor = conn.cursor()
         
         # Example query
-        cursor.execute("SELECT TOP 10 * FROM sys.objects")
+        cursor.execute("SELECT TOP 10 [name] FROM sys.objects")
         rows = cursor.fetchall()
         
         # Convert result to JSON
