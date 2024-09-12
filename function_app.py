@@ -13,7 +13,7 @@ import json
 server = "remee-aya-test.database.windows.net"
 database = "remee-test"
 username = "test_user"
-password = "September920204!"
+password = "September920204"
 driver = '{ODBC Driver 18 for SQL Server}'
 
 
